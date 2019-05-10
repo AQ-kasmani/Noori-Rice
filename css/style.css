@@ -1,0 +1,93 @@
+@import "https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900";
+@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900";
+@import "https://fonts.googleapis.com/css?family=Crete+Round";
+body{font-family:'Lato',sans-serif;color:#555}
+*{outline:0}
+ul{padding:0;list-style:none}
+.bg{padding:65px 0;margin:70px 0;background-color:#F9F9F9}
+.navbar{transition:all.4s linear}
+.navbar-fixed{position:fixed;left:0;right:0;z-index:1000;background-color:rgba(51,51,51,0.7)}
+.navbar.change{padding-top:0;padding-bottom:0}
+.navbar-dark .navbar-toggler-icon{background-image:none}
+.navbar-dark .navbar-toggler-icon i{color:#fff;margin-top:5px}
+.navbar-dark .navbar-toggler{border-color:#fff}
+.navbar-dark .navbar-nav .nav-link{color:#fff;font-weight:700;text-transform:uppercase;font-family:'Raleway',sans-serif;letter-spacing:1px;line-height:22px;font-size:13px;font-family:Raleway,sans-serif;-webkit-transition:margin .4s ease,padding .4s ease;-o-transition:margin .4s ease,padding .4s ease;transition:margin .4s ease,padding .4s ease}
+.navbar-dark .navbar-nav .nav-link:focus,.navbar-dark .navbar-nav .nav-link:hover{color:#00923f}
+.carousel-item.top-slider{height:700px;min-height:350px;background:no-repeat top center scroll;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}
+.carousel-item.top-slider img{width:100%;height:700px}
+.about-text{padding-top:35px; padding-bottom:35px;}
+.about h2{font-size:32px;font-weight:700;text-transform:uppercase;letter-spacing:1px;font-family:'Raleway',sans-serif;color:#333;line-height:1.5;margin:0 0 30px}
+.about p{color:#000;line-height:1.8;font-weight:300;margin:0 0 10px;font-size:18px}
+.about img{vertical-align:middle}
+.mission-text h3{font-family:'Raleway',sans-serif;padding:0 0 10px;margin-bottom:30px;border-bottom:2px solid #00923f;font-size:20px;font-weight:700}
+.mission-text span{color:#00923f}
+.mission-text p{line-height:1.8;font-size:15px}
+.noori-text h2,.rice-text h3{font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#333;line-height:1.5;margin:0 0 30px;font-size:26px;font-family:'Raleway',sans-serif}
+.noori-text p{font-size:15px;line-height:1.8;margin-bottom:30px}
+a.btn.btn-custom{border:2px solid #444;color:#333;line-height:36px;padding-left:30px;padding-right:30px;font-weight:600;transition:all.2s linear}
+a.btn.btn-custom:hover{background-color:#444;color:#fff}
+.customer li{display:inline-block;background-color:#ccc;padding:6px 16px;margin:2px 0;border-radius:4px}
+.variety li{margin-bottom:2px}
+.variety li a{display:block;color:#000;background-color:#ccc;padding:6px 12px;border-radius:4px}
+.bg-purple{background-color:#515875}
+.bg-blue{background-color:#576f9e}
+.bg-lightblue{background-color:#6697b9}
+.bg-aquablue{background-color:#88c3d8}
+.box-padding{padding:28px 60px}
+.membership img{width:200px;height:200px}
+.membership p{padding-top:10px;margin-top:10px;position:relative}
+.membership p:after{content:"";position:absolute;width:50px;border-top:1px solid #fff;margin:0 auto;left:0;right:0;top:0}
+h5.faq-heading{color:#444;font-weight:600;display:block;font-size:24px;font-family:'Raleway',sans-serif}
+h4.accordion-heading{font-weight:600;font-size:18px;color:#444;font-weight:600;line-height:1.5;margin:5px 0 30px;font-family:'Raleway',sans-serif}
+.accordion{margin-bottom:20px}
+.card-header{padding:0;margin-bottom:0;background-color:transparent}
+.card-header h5 button{color:#444;font-weight:600}
+.card-header h5 button:hover{color:#333}
+#gallery h5,#team h5{font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#333;font-size:26px;line-height:1.5;margin:0 0 30px;font-family:'Raleway',sans-serif}
+#gallery img{width:100%;height:230px;margin-bottom:5px}
+.client{background-image:url(../img/home-testi-bg.jpg);background-size:cover;background-position:center center;background-attachment:fixed}
+.client h3{color:#fff;font-size:26px;font-weight:700;text-transform:uppercase;letter-spacing:1px;line-height:1.5;margin:0;font-family:'Raleway',sans-serif}
+.client p{line-height:1.8;color:#fff;font-size:18px;margin-bottom:0;font-family:'Crete Round',serif;font-style:italic}
+.col-center{margin:0 auto;float:none!important}
+.carousel.client{margin:30px auto}
+.carousel.client .item{color:#999;font-size:14px;text-align:center;overflow:hidden;min-height:290px}
+.carousel.client .item .img-box{width:100px;height:100px;margin:0 auto}
+.carousel.client .img-box img{width:100%;height:100%;display:block;border-radius:50%}
+.carousel.client .testimonial{padding:30px 0 10px}
+.carousel.client .overview{font-style:italic}
+.carousel.client .overview b{text-transform:uppercase;color:#7AA641}
+.carousel.client .carousel-control{width:40px;height:40px;margin-top:-20px;top:50%;background:none}
+.carousel-control.arrow-client i{font-size:68px;line-height:42px;position:absolute;display:inline-block;color:rgba(0,0,0,0.8);text-shadow:0 3px 3px #e6e6e6,0 0 0 #000}
+.carousel.client .carousel-indicators.client-indicator{bottom:-40px}
+.carousel-indicators.client-indicator li,.carousel-indicators.client-indicator li.active{width:10px;height:10px;margin:1px 3px;border-radius:50%}
+.carousel-indicators.client-indicator li{background:#999;border-color:transparent;box-shadow:inset 0 2px 1px rgba(0,0,0,0.2)}
+.carousel-indicators.client-indicator li.active{background:#555;box-shadow:inset 0 2px 1px rgba(0,0,0,0.2)}
+.team-box{background-color:#fff}
+.team-box h6{margin-bottom:0;font-size:19px;text-transform:uppercase;letter-spacing:1px;font-weight:700;color:#444;line-height:1.5;font-family:'Raleway',sans-serif}
+.team-box p{color:#00923f;font-weight:400;font-family:'Crete Round',serif;font-style:italic;font-size:15px;margin-top:5px;font-weight:bold}
+.contact{padding:50px 0;box-shadow:0 0 10px #ccc}
+.contact-head{position:relative;margin:0 0 50px}
+.contact-head h3{color:#444;font-weight:600;line-height:1.5;background-color:#fff;position:absolute;top:-15px;padding-right:15px;display:inline-block;font-family:'Raleway',sans-serif}
+hr{border:1px dotted #ccc;height:5px;border-right:0;width:100%}
+.contact input{margin:10px 0;border:2px solid #ddd}
+.contact textarea{margin:10px 0;border:2px solid #ddd;height:150px;line-height:1.42857143}
+.btn.btn-form{background-color:#00923f;border:1px solid #00923f;border-bottom:2px solid #057535;padding-left:25px;padding-right:25px;color:#fff;font-weight:700;transition:all.2s linear}
+.btn.btn-form:hover{background-color:#000}
+footer{background-color:#333;color:#ccc;border-top:5px solid rgba(0,0,0,0.2)}
+footer p{opacity:.8;font-size:13.5px;line-height:1.7}
+.foot-head{color:#DDD;font-size:15px;font-weight:600;letter-spacing:2px;text-transform:uppercase;line-height:1.5;margin:0 0 30px;font-family:'Raleway',sans-serif}
+.foot-list,.foot-icon{padding:0}
+.foot-list li{padding:4px}
+.foot-list li a{color:#CCC;font-size:14px;background-image:url(../img/widget-link-dark.png);background-repeat:no-repeat;padding-left:15px}
+.foot-icon{margin-top:25px}
+.foot-icon li{display:inline-block;margin:4px}
+.foot-icon li a{color:#ccc}
+@media only screen and (max-width: 768px) {
+.contact{box-shadow:0 0 0 #fff}
+}
+@media only screen and (max-width: 480px) {
+.carousel-item.top-slider,.carousel-item.top-slider img{height:400px}
+}
+html {
+  scroll-behavior: smooth;
+}
